@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TanLT1Extensions_Example' do
+  pod 'TanLT1Extensions', :path => '../'
+
+  target 'TanLT1Extensions_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
