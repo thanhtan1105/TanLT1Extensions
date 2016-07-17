@@ -10,7 +10,7 @@ import Foundation
 
 extension NSNumber {
   // return like 12k, 12.3k
-  public func suffixNumber(number:NSNumber) -> NSString {
+  public class func suffixNumber(number:NSNumber) -> NSString {
     
     var num:Double = number.doubleValue;
     let sign = ((num < 0) ? "-" : "" );

@@ -1,9 +1,8 @@
 {
   "name": "TanLT1Extensions",
   "version": "0.1.0",
-  "summary": "A short description of TanLT1Extensions.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TanLT1Extensions",
+  "summary": "iOS Extension",
+  "homepage": "https://github.com/thanhtan1105/TanLT1Extensions",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +11,7 @@
     "Le Thanh Tan": "thanhtan1105@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TanLT1Extensions.git",
+    "git": "https://github.com/thanhtan1105/TanLT1Extensions.git",
     "tag": "0.1.0"
   },
   "platforms": {

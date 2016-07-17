@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TanLT1Extensions
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+      let string = "  1231 3213 123 213 123 "
+      
+
         return true
     }
 

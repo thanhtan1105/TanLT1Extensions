@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'TanLT1Extensions_Example' do
-#  pod 'TanLT1Extensions', :path => '../'
+  pod 'TanLT1Extensions', :path => '../'
 
   target 'TanLT1Extensions_Tests' do
     inherit! :search_paths
