@@ -28,6 +28,10 @@
 		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A678AA541D3B80C1000DC7A9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678AA501D3B80C1000DC7A9 /* UIColor+Extension.swift */; };
+		A678AA551D3B80C1000DC7A9 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678AA511D3B80C1000DC7A9 /* UILabel+Extension.swift */; };
+		A678AA561D3B80C1000DC7A9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678AA521D3B80C1000DC7A9 /* UIView+Extension.swift */; };
+		A678AA571D3B80C1000DC7A9 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678AA531D3B80C1000DC7A9 /* UIViewController+Extension.swift */; };
 		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
 		ACF7E0914CE9FA71DA23B6419380DA06 /* Pods-TanLT1Extensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 833DB9603FDEBCFB16218A5EF260A90E /* Pods-TanLT1Extensions_Example-dummy.m */; };
 		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -104,6 +108,10 @@
 		9A69AD0237CBECB2ED21B40E60E958C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		9B73A53254D3ED478EFBF4FA8BEAE8E0 /* Pods-TanLT1Extensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TanLT1Extensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A28A96F616828C3183BF837DC4493F12 /* TanLT1Extensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TanLT1Extensions-dummy.m"; sourceTree = "<group>"; };
+		A678AA501D3B80C1000DC7A9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A678AA511D3B80C1000DC7A9 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		A678AA521D3B80C1000DC7A9 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A678AA531D3B80C1000DC7A9 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		B6197C754BFE3FFB66BDFB38435606EB /* Pods-TanLT1Extensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TanLT1Extensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -260,6 +268,27 @@
 			path = "Target Support Files/Pods-TanLT1Extensions_Tests";
 			sourceTree = "<group>";
 		};
+		A678AA4E1D3B7FFA000DC7A9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A678AA501D3B80C1000DC7A9 /* UIColor+Extension.swift */,
+				A678AA511D3B80C1000DC7A9 /* UILabel+Extension.swift */,
+				A678AA521D3B80C1000DC7A9 /* UIView+Extension.swift */,
+				A678AA531D3B80C1000DC7A9 /* UIViewController+Extension.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A678AA4F1D3B7FFE000DC7A9 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F19C3415CBD265800EBC6EDEDB23D3C2 /* Array+Extension.swift */,
+				7BA6C6CB9C3F064270D8A2BDB1630F9C /* NSNumber+Extension.swift */,
+				E96EE5CF9864B30E9AE8B0B85C06F614 /* String+Extension.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
 		B0DA26057C6CE2E08763D05C6EE6C6C6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,9 +318,8 @@
 		BBB95859600A7264E2D48DA443486DF2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F19C3415CBD265800EBC6EDEDB23D3C2 /* Array+Extension.swift */,
-				7BA6C6CB9C3F064270D8A2BDB1630F9C /* NSNumber+Extension.swift */,
-				E96EE5CF9864B30E9AE8B0B85C06F614 /* String+Extension.swift */,
+				A678AA4F1D3B7FFE000DC7A9 /* Foundation */,
+				A678AA4E1D3B7FFA000DC7A9 /* UI */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -515,10 +543,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A678AA571D3B80C1000DC7A9 /* UIViewController+Extension.swift in Sources */,
 				1B8350687D2AC9377E7A4697FEDD9876 /* Array+Extension.swift in Sources */,
+				A678AA561D3B80C1000DC7A9 /* UIView+Extension.swift in Sources */,
 				C6BF7C151124BC3C94DBC85F2F93474B /* NSNumber+Extension.swift in Sources */,
+				A678AA551D3B80C1000DC7A9 /* UILabel+Extension.swift in Sources */,
 				52FC4F52DEE80BA8BA8DC91F92E9E16B /* String+Extension.swift in Sources */,
 				19CE26C7F71C91558A456AB24668D956 /* TanLT1Extensions-dummy.m in Sources */,
+				A678AA541D3B80C1000DC7A9 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
