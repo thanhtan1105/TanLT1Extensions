@@ -9,7 +9,7 @@
 import Foundation
 
 extension SequenceType {
-  func findElement (match: Generator.Element->Bool) -> Generator.Element? {
+  public func findElement (match: Generator.Element->Bool) -> Generator.Element? {
     for element in self where match(element) {
       return element
     }

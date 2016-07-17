@@ -17,7 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-      let string = "  1231 3213 123 213 123 "
+      let a = "  1231 3213 123 213 123 "      
+      let number = NSNumber(integer: 20123)
+      
+      
+      
       
 
         return true
