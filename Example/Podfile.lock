@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - TanLT1Extensions (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TanLT1Extensions (from `../`)
+
+EXTERNAL SOURCES:
+  TanLT1Extensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  TanLT1Extensions: 256e48ed76116edf5e89e731dc6be25d692ee332
+
+PODFILE CHECKSUM: d3dcce743f699cf4bf4384e5a1d20fd004524672
+
+COCOAPODS: 1.0.1
