@@ -1,4 +1,5 @@
 # TanLT1Extensions
+<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/Le Thanh Tan/TanLT1Extensions.svg?style=flat)](https://travis-ci.org/Le Thanh Tan/TanLT1Extensions)
 [![Version](https://img.shields.io/cocoapods/v/TanLT1Extensions.svg?style=flat)](http://cocoapods.org/pods/TanLT1Extensions)
@@ -27,3 +28,6 @@ Le Thanh Tan, thanhtan1105@gmail.com
 ## License
 
 TanLT1Extensions is available under the MIT license. See the LICENSE file for more info.
+=======
+All about extensions to help development application faster 
+>>>>>>> 08381903a1e86628926723eeddb473a050eacc20
